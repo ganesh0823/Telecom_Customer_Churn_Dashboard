@@ -1,4 +1,14 @@
+# Power BI Project - Telecom Customer Churn Analysis
+
 ## Table of Contents :
+  - [Problem Statement](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/edit/main/README.md#Problem-Statement)
+  - [Data Collection](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/edit/main/README.md#Data-Collection)
+  - [Data Preparation](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/edit/main/README.md#Data-Preparation)
+  - [Data Modeling](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/edit/main/README.md#Data-Modeling)
+  - [Data Analysis(DAX)](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/edit/main/README.md#Data-Analysis(DAX))
+  - [Data Visualization (Dashboard)](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/edit/main/README.md#Data-Visualization-(Dashboard))
+  - [Insights](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/edit/main/README.md#Insights)
+  - [Recommendation](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/edit/main/README.md#Recommendation)
 
 ## Problem Statement :
 Introduction:
@@ -76,7 +86,42 @@ Measures used in  all visualization are:
 - Tech Support in % = `DIVIDE(CALCULATE(COUNT('Telco_Customer_Churn'[TechSupport]), 'Telco_Customer_Churn'[TechSupport]= "Yes", 'Telco_Customer_Churn'[Churn]= "Yes"), CALCULATE(COUNT('Telco_Customer_Churn'[TechSupport]), 'Telco_Customer_Churn'[Churn]= "Yes"), 0)`
 
 ## Data Visualization (Dashboard) :
-Dashboard: [View Dashboard] 
+Dashboard: [View Dashboard](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/blob/main/Telecom_Customer_Churn_2.pbix)
+
+Show Visualization Of Telecom Customer Churn Analysis
+
+| Customer Churn |
+| ----------- |
+|![Screenshot (22)](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/assets/164488911/dc5c7a17-68c7-4272-97be-2a1e33ea35a6)|
+
+
+| Customer Risk |
+| ----------- |
+|![Screenshot (23)](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/assets/164488911/ba3aa591-606c-4fe3-baa7-ee99bad42121)|
+
+
+| Services |
+| ----------- |
+|![Screenshot (24)](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/assets/164488911/2aa940ff-5c73-4069-834a-c48f54c437e4)|
+
+
+## Insights :
+**Based on the visualized data, it can be concluded that:**
+
+1)  Month to month contracts, absence of online security and tech support seem to be positively correlated with churn. While, tenure, two year contracts seem to be negatively correlated with churn.
+2) Interestingly, services such as Online security, streaming TV, online backup, tech support, etc. without internet connection seem to be negatively related to churn.
+3) The company is at risk of losing recently joined customers. based on the results from analysis.. if they decided to month-to-month contract.
+4) 7043 customers are at the risk of churn. and The churn rate is 27%  and yearly charges is $16.06M charges. and Monthly Charges is $456.12K monthly charges.
+5) Maximum Monthly Charges by Internet Services from Fiber Optics is 283K.
+6) It a lot of customers had an issue with Fiber Optic . Up to 44% of the customers churned were using Fiber Optic as their Internet Services.
+
+## Recommendation :
+
+1) The Company could try convincing customers to subscribe to One-Year and Two-Year contract. The contract are not favorable to customers  as they tend to pay more monthly.
+2) Giving the discount to customers based on the some specific tasks is also good wat retaining them, specially those month-to-month contract.
+3) Enhance customer communication and satisfaction, especially for senior citizens who exhibit a higher churn rate.
+4) Consider personalized promotions for loyal customers with longer tenures to encourage them to continue with the service.
+5) Increase sale of 1 and 2 year contract by 5% each and Yearly increase of automatic payments by 5%.
 
   
 
