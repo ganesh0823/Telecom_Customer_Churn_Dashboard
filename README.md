@@ -13,7 +13,7 @@ Objectives :
 
 ## Data Collection : 
 Clean and  High-Quality data is essential for accurate analysis and modeling.
-- Dataset : [Telecom Customer Churn Analysis] 
+- Dataset : [Telecom Customer Churn Analysis](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/blob/main/Telco_Customer_Churn.xlsx)
 - Content : Contains customer data for churn prediction.
 - Source : Sourced from a telecommunications company.
 
