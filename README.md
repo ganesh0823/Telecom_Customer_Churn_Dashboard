@@ -37,7 +37,7 @@ Telco Customer Churn is give table named:
 - `Telco Customer Churn` which has `21 columns and 7043 rows` of observation
   
 In the new table, one additional conditional columns were added using M-formula:
-- Loyalty = `SWITCH(TRUE(),'Telco_Customer_Churn'[tenure] <= 12, "< 1 year",'Telco_Customer_Churn'[tenure] <= 24, "< 2 years",  'Telco_Customer_Churn'[tenure] <= 36, "< 3 years",'Telco_Customer_Churn'[tenure] <= 48, "< 4 years",'Telco_Customer_Churn'[tenure] <= 60, "< 5 years",'Telco_Customer_Churn'[tenure] <= 72, "< 6 years", "6+ years")`
+- Loyalty = `SWITCH(TRUE(),'Telco_Customer_Churn'[tenure] <= 12, "< 1 year",'Telco_Customer_Churn'[tenure] <= 24, "< 2 years",  'Telco_Customer_Churn'[tenure] <= 36, "< 3 years",'Telco_Customer_Churn'[tenure] <= 48,"< 4 years", 'Telco_Customer_Churn'[tenure] <= 60, "< 5 years",'Telco_Customer_Churn'[tenure] <= 72, "< 6 years", "6+ years")`
 
 - Removed Unnecessary columns 
 - Removed Unnecessary rows
