@@ -1,4 +1,4 @@
-# Power BI Project - Telecom Customer Churn Analysis
+# Power BI Project - Telecom Customer Churn Dashboard
 
 ## Table of Contents :
   - [Problem Statement](https://github.com/ganesh0823/Telecom_Customer_Churn_Analysis/edit/main/README.md#Problem-Statement)
